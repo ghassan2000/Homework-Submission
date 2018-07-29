@@ -1,0 +1,117 @@
+/*******************
+***** FLOAT ****************/
+h1 {
+  color: blue;
+  text-align: center;
+}
+h2 {
+  color: grey;
+  text-align: center;
+}
+#grid-floats .grid-item {
+  color: blue;
+  float: left;
+  width: 24%;
+  height:290px;
+  margin-left: 1px;
+  border: 5px solid black;
+  box-sizing:border-box;
+  display: relative;
+  margin-bottom: 3%;
+  text-align: center;
+  background-color:#9999ff;
+}
+#grid-floats li:first-child{
+  width:48%;
+  color: black;
+}
+img{
+  width:23%;
+}
+li{
+  list-style: none;
+}
+/******* TABLET float*********/
+@media only screen and (max-width: 1024px) {
+    #grid-floats .grid-item {
+      width:24%;
+      height:250px;
+      border:2px solid green;
+      background-color:#ccccff;
+      font-size:12px;
+    }
+    #grid-floats .grid-item:nth-child(1){
+      width:48%;
+    }
+    #grid-floats .grid-item:nth-child(2){
+      width:48%;
+}
+  }
+
+/********* MOBILE float******/
+@media only screen and (max-width: 768px) {
+    #grid-floats .grid-item {
+      width:24%;
+      height:250px;
+      border:1px solid green;
+      background-color:#DAFFFF;
+      font-size:11px;
+    }
+    #grid-floats .grid-item:nth-child(1){
+      width:96%;
+  }
+
+}
+/******************** FLEX ***************************/
+.header-flex{
+clear:both;
+}
+#grid-flex li {
+  color: blue;
+  width: 24%;
+  height:300px;
+  margin-left: 3px;
+  border: 4px solid black;
+  background-color: #9999ff;
+  box-sizing:border-box;
+  margin-bottom: 3px;
+  font-size:14px;
+}
+#grid-flex {
+  display: flex;
+  flex-wrap:wrap;
+  text-align:center;
+}
+#grid-flex .grid-item:nth-child(1){
+  width:48%;
+  color: black;
+}
+/*TABLET flex */
+@media only screen and (max-width: 1024px) {
+    #grid-flex .grid-item {
+      width:24%;
+      height:200px;
+      border:2px solid green;
+      background-color:#ccccff;
+      font-size:12px;
+    }
+    #grid-flex .grid-item:nth-child(1){
+      width:48%;
+    }
+    #grid-flex .grid-item:nth-child(2){
+      width:48%;
+}
+  }
+/* MOBILE flex*/
+@media only screen and (max-width: 768px) {
+    #grid-flex .grid-item {
+      width:24%;
+      height:220px;
+      border:1px solid green;
+      background-color:#DAFFFF;
+      font-size:11px;
+  }
+  #grid-flex .grid-item:nth-child(1){
+    width:97%;
+}
+}

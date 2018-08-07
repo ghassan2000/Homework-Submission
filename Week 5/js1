@@ -1,0 +1,9 @@
+var fruit={apple:"red", orange:"yellow", kiwi:"green"};
+console.log(fruit.orange)
+
+var hour=10;
+if(hour>18){
+  console.log("Good day");
+} else {
+console.log("Good evening");
+}

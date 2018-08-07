@@ -1,0 +1,11 @@
+var language=('Bonjour le monde');
+console.log("language")
+//document.write ("Hello World!")//
+var string="hallo world";
+var x=5;
+console.log("I think value is ....");
+console.log(x)
+var x1, y, z;
+x1 = 5;
+y = 6;
+z = x + y;

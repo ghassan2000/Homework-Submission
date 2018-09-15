@@ -1,5 +1,5 @@
 ////questions function/////
-
+ 
 (3) [{...},{...},{...}]
 0:{ input: 'Hello', output: array(3)};
 1:{ input: 'what your favourite color?', output: array(3)};
